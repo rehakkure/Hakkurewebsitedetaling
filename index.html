@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f3ef">
+  <meta name="description" content="Apex Detailing — детейлинг автомобилей в Перми. Полировка, керамика, уход за салоном и защитная плёнка.">
+  <title>Apex Detailing — внимание к каждой детали</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;750&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Apex Detailing — на главную">
+        <span class="brand-mark" aria-hidden="true">A<span>.</span></span>
+        <span class="brand-name">APEX <span>DETAILING</span></span>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Главное меню">
+        <a href="#services">Услуги</a>
+        <a href="#price">Прайс</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-booking" href="#contacts">Записаться <span aria-hidden="true">↗</span></a>
+        <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" title="Переключить тему">
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.1 15.2A8.4 8.4 0 0 1 8.8 3.9 8.5 8.5 0 1 0 20.1 15.2Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero page-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-intro" data-reveal>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Студия детейлинга · Пермь</p>
+        <div class="hero-copy">
+          <h1 id="hero-title">Идеальный вид<br>вашего автомобиля<span class="accent-period">.</span></h1>
+          <div class="hero-aside">
+            <p>Деликатный уход, точная работа и защита, которая сохраняет характер автомобиля.</p>
+            <div class="hero-actions">
+              <button class="button button--dark" type="button" data-open-booking>Записаться <span aria-hidden="true">↗</span></button>
+              <a class="text-link" href="#price">Узнать стоимость <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal data-reveal-delay="100">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2200&q=88" alt="Спортивный автомобиль в мягком вечернем свете" fetchpriority="high">
+        <div class="hero-visual-shade" aria-hidden="true"></div>
+        <div class="hero-caption"><span>Уход без компромиссов</span><span>Пермь · с заботой о деталях</span></div>
+        <a class="scroll-cue" href="#services" aria-label="Перейти к услугам"><span>Исследовать</span><span class="scroll-cue__arrow" aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-footnote"><span>Детейлинг-студия</span><span>58°00′ с. ш. &nbsp; 56°15′ в. д.</span></div>
+    </section>
+
+    <section class="services section-space page-wrap" id="services" aria-labelledby="services-title">
+      <div class="section-heading" data-reveal>
+        <div>
+          <p class="eyebrow">01 / Услуги</p>
+          <h2 class="section-title" id="services-title">Точность<br>в каждой детали<span class="accent-period">.</span></h2>
+        </div>
+        <p class="section-description">Подбираем уход не по шаблону, а под состояние автомобиля, ваши привычки и желаемый результат.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card" data-reveal>
+          <div class="service-image"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1050&q=82" alt="Детали кузова автомобиля после ухода" loading="lazy"><span class="service-index">01</span></div>
+          <div class="service-card-copy"><div><h3>Комплексный детейлинг</h3><p>Продуманный уход за кузовом и салоном.</p></div><a class="round-arrow" href="#price" aria-label="Комплексный детейлинг — цены"><span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="service-card" data-reveal data-reveal-delay="80">
+          <div class="service-image"><img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1050&q=82" alt="Отражение света на отполированном автомобиле" loading="lazy"><span class="service-index">02</span></div>
+          <div class="service-card-copy"><div><h3>Керамика и полировка</h3><p>Глубина цвета и стойкая защита поверхности.</p></div><a class="round-arrow" href="#price" aria-label="Керамика и полировка — цены"><span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="service-card" data-reveal>
+          <div class="service-image"><img src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=1050&q=82" alt="Ухоженный интерьер автомобиля" loading="lazy"><span class="service-index">03</span></div>
+          <div class="service-card-copy"><div><h3>Химчистка салона</h3><p>Свежесть и чистота без лишней влаги.</p></div><a class="round-arrow" href="#price" aria-label="Химчистка салона — цены"><span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="service-card" data-reveal data-reveal-delay="80">
+          <div class="service-image"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1050&q=82" alt="Премиальный автомобиль под защитой" loading="lazy"><span class="service-index">04</span></div>
+          <div class="service-card-copy"><div><h3>Оклейка бронеплёнкой</h3><p>Защита кузова от сколов и дорожных следов.</p></div><a class="round-arrow" href="#price" aria-label="Оклейка бронеплёнкой — цены"><span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-labelledby="manifesto-title" data-reveal>
+      <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=2200&q=85" alt="" loading="lazy" aria-hidden="true">
+      <div class="manifesto-shade" aria-hidden="true"></div>
+      <div class="manifesto-content page-wrap">
+        <p class="eyebrow eyebrow--light">Уход, который ощущается</p>
+        <h2 id="manifesto-title">Не просто блеск.<br>Состояние нового<span class="accent-period">.</span></h2>
+        <p>Работаем внимательно, чтобы результат радовал не только в день выдачи.</p>
+        <a class="button button--light" href="#contacts">Познакомиться со студией <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="manifesto-label" aria-hidden="true">APEX DETAILING · PERM</span>
+    </section>
+
+    <section class="price section-space page-wrap" id="price" aria-labelledby="price-title">
+      <div class="section-heading" data-reveal>
+        <div>
+          <p class="eyebrow">02 / Стоимость</p>
+          <h2 class="section-title" id="price-title">Ясно по делу<span class="accent-period">.</span></h2>
+        </div>
+        <p class="section-description">Точный расчёт зависит от класса, размера и состояния автомобиля. Перед началом согласуем все работы.</p>
+      </div>
+
+      <div class="price-table-wrap" data-reveal>
+        <table class="price-table">
+          <thead><tr><th scope="col">Услуга</th><th scope="col">Что входит</th><th scope="col">Стоимость от</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Комплексный детейлинг</th><td>Кузов и салон</td><td>12 000 ₽</td></tr>
+            <tr><th scope="row">Полировка и керамика</th><td>Подготовка и защита ЛКП</td><td>24 000 ₽</td></tr>
+            <tr><th scope="row">Химчистка салона</th><td>Глубокая очистка интерьера</td><td>9 000 ₽</td></tr>
+            <tr><th scope="row">Оклейка бронеплёнкой</th><td>Защитные зоны кузова</td><td>18 000 ₽</td></tr>
+          </tbody>
+        </table>
+        <p class="price-note"><span aria-hidden="true">✳</span> Цены приведены как ориентир для макета. Запросите актуальный расчёт для вашего автомобиля.</p>
+      </div>
+      <div class="price-cta" data-reveal><p>Не уверены, что подойдёт вашему автомобилю?</p><button class="text-link" type="button" data-open-booking>Обсудить с мастером <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <section class="contacts section-space page-wrap" id="contacts" aria-labelledby="contacts-title">
+      <div class="section-heading" data-reveal>
+        <div>
+          <p class="eyebrow">03 / Контакты</p>
+          <h2 class="section-title" id="contacts-title">Будем рядом<span class="accent-period">.</span></h2>
+        </div>
+        <p class="section-description">Заезжайте в студию или напишите — подскажем, с чего начать уход за автомобилем.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-details" data-reveal>
+          <div class="contact-item"><span class="contact-label">Адрес</span><address>Пермь, ул. Революции, 24<br><span>ТЦ «Новая Столица»</span></address><a class="contact-link" href="https://yandex.ru/maps/?text=Пермь%2C%20улица%20Революции%2C%2024" target="_blank" rel="noreferrer">Построить маршрут <span aria-hidden="true">↗</span></a></div>
+          <div class="contact-item"><span class="contact-label">Телефон</span><a class="contact-phone" href="tel:+73420000000">+7 (342) 000-00-00</a><span class="contact-hint">Демонстрационный номер — замените на номер студии.</span></div>
+          <div class="contact-item"><span class="contact-label">На связи</span><a class="button button--dark telegram-button" href="https://t.me/" target="_blank" rel="noreferrer">Написать в Telegram <span aria-hidden="true">↗</span></a><span class="contact-hint">Замените ссылку на аккаунт или чат студии.</span></div>
+          <button class="contact-booking" type="button" data-open-booking>Записаться на услугу <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="map-frame" data-reveal data-reveal-delay="100">
+          <iframe title="Карта: ТЦ Новая Столица, улица Революции, 24, Пермь" src="https://yandex.ru/map-widget/v1/?text=Пермь%2C%20улица%20Революции%2C%2024&z=16" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <a class="map-link" href="https://yandex.ru/maps/?text=Пермь%2C%20улица%20Революции%2C%2024" target="_blank" rel="noreferrer">Открыть карту <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-wrap">
+    <a class="brand brand--footer" href="#top"><span class="brand-mark" aria-hidden="true">A<span>.</span></span><span class="brand-name">APEX <span>DETAILING</span></span></a>
+    <p>Внимание к каждой детали.</p>
+    <a href="#top" class="back-to-top">Наверх ↑</a>
+    <span class="copyright">© <span id="current-year">2026</span> Apex Detailing · Пермь</span>
+  </footer>
+
+  <dialog class="booking-dialog" aria-labelledby="booking-title">
+    <div class="dialog-topline"><p class="eyebrow">Apex Detailing · Пермь</p><button class="dialog-close" type="button" aria-label="Закрыть окно">×</button></div>
+    <h2 id="booking-title">Записаться<span class="accent-period">.</span></h2>
+    <p class="dialog-description">Оставьте контакты и услугу — подготовим сообщение, чтобы вы могли отправить его студии в Telegram.</p>
+    <form class="booking-form">
+      <label>Ваше имя<input name="name" autocomplete="name" placeholder="Как к вам обращаться" required></label>
+      <label>Телефон<input name="phone" type="tel" autocomplete="tel" placeholder="+7 ___ ___-__-__" required></label>
+      <label>Услуга<select name="service" required><option value="" disabled selected>Выберите услугу</option><option>Комплексный детейлинг</option><option>Керамика и полировка</option><option>Химчистка салона</option><option>Оклейка бронеплёнкой</option><option>Нужна консультация</option></select></label>
+      <button class="button button--dark form-submit" type="submit">Подготовить сообщение <span aria-hidden="true">↗</span></button>
+    </form>
+    <div class="booking-result" hidden aria-live="polite"><p>Сообщение подготовлено. Telegram откроется в новой вкладке — выберите чат студии и отправьте заявку.</p><a class="button button--dark telegram-send" href="https://t.me/" target="_blank" rel="noreferrer">Открыть Telegram <span aria-hidden="true">↗</span></a></div>
+    <p class="form-disclaimer">Форма не отправляет данные автоматически. Перед публикацией укажите актуальный аккаунт Telegram студии.</p>
+  </dialog>
+  <div class="dialog-backdrop" hidden></div>
+</body>
+</html>
